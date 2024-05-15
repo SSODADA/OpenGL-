@@ -2,10 +2,8 @@
 GLfloat xRotated, yRotated, zRotated;
 GLdouble size=1;
 
-
 void display(void)
 {
-
     glMatrixMode(GL_MODELVIEW);
     // clear the drawing buffer.
     glClear(GL_COLOR_BUFFER_BIT);
@@ -51,7 +49,6 @@ void reshapeFunc(int x, int y)
 
 void idleFunc(void)
 {
- 
      yRotated += 0.01;
      
     display();
