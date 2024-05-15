@@ -1,5 +1,4 @@
-#include <GL\glut.h>
-
+#include <GL/freeglut.h>
 GLfloat xRotated, yRotated, zRotated;
 GLdouble size=1;
 
